@@ -1,8 +1,8 @@
 view: users {
   sql_table_name: demo_db.users ;;
-  drill_fields: [ididididididididididididididididididididididididididididididididididididididididididididididididididididididid]
+  drill_fields: [id]
 
-  dimension: ididididididididididididididididididididididididididididididididididididididididididididididididididididididid {
+  dimension: id {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
@@ -20,7 +20,7 @@ view: users {
     map_layer_name: countries
     sql: ${TABLE}.country ;;
   }
-  dimension_group: created {
+  dimension_group: Marketing_Targets_Target_Effective_Fical{
     type: time
     timeframes: [raw, time, date, week, month, quarter, year]
     sql: ${TABLE}.created_at ;;
@@ -57,7 +57,7 @@ view: users {
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
-  ididididididididididididididididididididididididididididididididididididididididididididididididididididididid,
+  id,
   first_name,
   last_name,
   demo_visits_data.count,

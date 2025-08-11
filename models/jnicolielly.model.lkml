@@ -19,7 +19,7 @@ explore: billion_orders {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -43,7 +43,7 @@ explore: day_of_week {}
 explore: demo_visits_data {
   join: users {
     type: left_outer
-    sql_on: ${demo_visits_data.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${demo_visits_data.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -57,7 +57,7 @@ explore: employees {}
 explore: events {
   join: users {
     type: left_outer
-    sql_on: ${events.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${events.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -71,7 +71,7 @@ explore: fakeorders {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -93,7 +93,7 @@ explore: hundred_million_orders {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -107,7 +107,7 @@ explore: hundred_million_orders_wide {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -139,7 +139,7 @@ explore: map_layer {}
 explore: orders {
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -159,7 +159,7 @@ explore: order_items {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 
@@ -185,7 +185,7 @@ explore: order_items_vijaya {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 
@@ -225,7 +225,7 @@ explore: sandbox_scratch {}
 explore: saralooker {
   join: users {
     type: left_outer
-    sql_on: ${saralooker.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${saralooker.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -239,7 +239,7 @@ explore: sequel_database_usage_v2 {}
 explore: sindhu {
   join: users {
     type: left_outer
-    sql_on: ${sindhu.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${sindhu.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -257,7 +257,7 @@ explore: ten_million_orders {
 
   join: users {
     type: left_outer
-    sql_on: ${orders.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
@@ -285,7 +285,7 @@ explore: users {}
 explore: user_data {
   join: users {
     type: left_outer
-    sql_on: ${user_data.user_id} = ${users.ididididididididididididididididididididididididididididididididididididididididididididididididididididididid} ;;
+    sql_on: ${user_data.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
 }
