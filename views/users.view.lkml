@@ -1,8 +1,8 @@
 view: users {
   sql_table_name: demo_db.users ;;
-  drill_fields: [id]
+  drill_fields: [ididididididididididididididididididididididididididididididididididididididididididididididididididididididid]
 
-  dimension: id {
+  dimension: ididididididididididididididididididididididididididididididididididididididididididididididididididididididid {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
@@ -57,16 +57,16 @@ view: users {
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
-	id,
-	first_name,
-	last_name,
-	demo_visits_data.count,
-	events.count,
-	orders.count,
-	saralooker.count,
-	sindhu.count,
-	user_data.count
-	]
+  ididididididididididididididididididididididididididididididididididididididididididididididididididididididid,
+  first_name,
+  last_name,
+  demo_visits_data.count,
+  events.count,
+  orders.count,
+  saralooker.count,
+  sindhu.count,
+  user_data.count
+  ]
   }
 
 }
