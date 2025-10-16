@@ -1,4 +1,4 @@
-view: xss_test_6 {
+view: xss_test_6_new {
   sql_table_name: demo_db.xss_test_6 ;;
 
   dimension: svganimate_onbeginalert1_attribute_namex_dur1s {

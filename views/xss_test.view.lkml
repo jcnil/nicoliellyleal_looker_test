@@ -1,4 +1,4 @@
-view: xss_test {
+view: xss_test_new {
   sql_table_name: demo_db.xss_test ;;
 
   dimension: xss_field {

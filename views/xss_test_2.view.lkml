@@ -1,4 +1,4 @@
-view: xss_test_2 {
+view: xss_test_2_new {
   sql_table_name: demo_db.xss_test_2 ;;
 
   dimension: imgsrc1onerroralert1 {

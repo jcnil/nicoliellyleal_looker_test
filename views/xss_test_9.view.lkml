@@ -1,4 +1,4 @@
-view: xss_test_9 {
+view: xss_test_9_new {
   sql_table_name: demo_db.xss_test_9 ;;
 
   dimension: div_stylebackgroundimage_urlhttpi_uadiv {

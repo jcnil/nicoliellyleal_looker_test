@@ -1,4 +1,4 @@
-view: xss_test_16 {
+view: xss_test_16_new {
   sql_table_name: demo_db.xss_test_16 ;;
 
   dimension: div_stylebackgroundimage_urljavascriptalert1 {

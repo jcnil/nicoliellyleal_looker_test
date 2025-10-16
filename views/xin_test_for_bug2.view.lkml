@@ -1,4 +1,4 @@
-view: xin_test_for_bug2 {
+view: xin_test_for_bug2_new {
   sql_table_name: demo_db.xin_test_for_bug2 ;;
   drill_fields: [id]
 

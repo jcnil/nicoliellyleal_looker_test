@@ -1,4 +1,4 @@
-view: xss_test_12 {
+view: xss_test_12_new {
   sql_table_name: demo_db.xss_test_12 ;;
 
   dimension: body_backgroundjavascriptalert1 {

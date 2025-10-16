@@ -1,5 +1,5 @@
-view: xss_test_7 {
-  sql_table_name: demo_db.xss_test_7 ;;
+view: xss_test_7_new {
+  sql_table_name: xss_test_7 ;;
 
   dimension: script_srchttplol_comhello_jsscript {
     type: string

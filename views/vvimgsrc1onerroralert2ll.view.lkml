@@ -1,4 +1,4 @@
-view: vvimgsrc1onerroralert2ll {
+view: vvimgsrc1onerroralert2ll_new {
   sql_table_name: demo_db.VV<img/src='1'onerror=alert(2)>LL ;;
 
   dimension: div_stylebackground {

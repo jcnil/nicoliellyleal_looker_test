@@ -1,4 +1,4 @@
-view: xss_test_11 {
+view: xss_test_11_new {
   sql_table_name: demo_db.xss_test_11 ;;
 
   dimension: div_stylebackgroundimage_urljavascriptprompt2 {
