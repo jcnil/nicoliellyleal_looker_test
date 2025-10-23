@@ -30,7 +30,7 @@ view: users {
     sql: ${TABLE}.email ;;
   }
   dimension: first_name {
-    alias: [name]
+    alias: [main_name]
     type: string
     sql: ${TABLE}.first_name ;;
   }
