@@ -8,6 +8,13 @@ datagroup: jnicolielly_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+datagroup: monthly_update {
+  # Este SQL se ejecuta periódicamente.
+  # Cuando el resultado cambia, Looker refresca la tabla agregada.
+  sql_trigger: SELECT EXTRACT(MONTH FROM CURRENT_DATE()) ;;
+  max_cache_age: "720 hours" # Respaldo de seguridad (30 días)
+}
+
 persist_with: jnicolielly_default_datagroup
 
 explore: billion_orders {
@@ -21,6 +28,19 @@ explore: billion_orders {
     type: left_outer
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
+  }
+}
+
+explore: transactions {
+  aggregate_table: sales_monthly {
+    query: {
+      dimensions: [created_month]
+      measures: [total_revenue]
+    }
+
+    materialization: {
+      datagroup_trigger: monthly_update
+    }
   }
 }
 
